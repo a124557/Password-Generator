@@ -17,14 +17,14 @@ root.geometry('480x500')
 
 # Handle button click event
 
-chars = "abcdefghikjklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()0123456789"
+chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()0123456789"
 
 def clicked():
     i = 0
     t.delete('1.0', END)
-    while i < int(spin.get()):
+    while i < int(spin.get()) < 21:
         psswd = ""
-        while len(psswd) < int(spin1.get()):
+        while len(psswd) < int(spin1.get()) < 21:
             psswd += chars[random.randint(0, len(chars) - 1)]
         t.insert(INSERT, "Password " + str(i + 1) + " : " + psswd + "\n")
         i += 1
