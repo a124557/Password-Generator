@@ -7,4 +7,5 @@ letters, numbers, and symbols.
 A graphical user interface is included, and built using Tkinter.
 
 
-![password generator](https://user-images.githubusercontent.com/72053963/170379864-31c50414-9f33-4424-a2ca-8880ad314ecb.PNG)
+![password generator](https://user-images.githubusercontent.com/72053963/170602099-a91611cc-9409-41de-8988-3a0fe5ed88e8.PNG)
+
